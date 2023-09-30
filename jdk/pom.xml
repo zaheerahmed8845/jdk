@@ -11,8 +11,12 @@
 	<groupId>com.example</groupId>
 	<artifactId>jdk</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>jdk</name>
 	<description>Demo project for jdk</description>
+	<modules>
+		<module>jdk9</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
