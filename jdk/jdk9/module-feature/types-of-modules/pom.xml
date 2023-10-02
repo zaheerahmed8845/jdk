@@ -5,15 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>module-feature</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk9</artifactId>
+    <artifactId>types-of-modules</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>factory-methods-for-collections</module>
-        <module>module-feature</module>
+        <module>named_module</module>
+        <module>unnamed_module</module>
+        <module>automatic_module</module>
     </modules>
 
     <properties>

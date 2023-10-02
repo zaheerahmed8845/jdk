@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>types-of-modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk9</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>factory-methods-for-collections</module>
-        <module>module-feature</module>
-    </modules>
+    <artifactId>unnamed_module</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

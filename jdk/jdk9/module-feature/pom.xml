@@ -5,20 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk9</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk9</artifactId>
+    <artifactId>module-feature</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>factory-methods-for-collections</module>
-        <module>module-feature</module>
+        <module>types-of-modules</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
