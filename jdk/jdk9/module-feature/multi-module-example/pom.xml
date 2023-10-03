@@ -5,20 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk9</artifactId>
+        <artifactId>module-feature</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>module-feature</artifactId>
+    <artifactId>multi-module-example</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>types-of-modules</module>
-        <module>multi-module-example</module>
-    </modules>
-
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
