@@ -5,16 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>module-feature</artifactId>
+        <artifactId>modules_movieflix</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>multi-module-example</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>modules_movieflix</module>
-        <module>modules_movieflix_fail</module>
-    </modules>
+    <artifactId>com.demo.movieflix.be</artifactId>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
