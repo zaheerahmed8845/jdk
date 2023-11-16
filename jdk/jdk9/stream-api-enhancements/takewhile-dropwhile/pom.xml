@@ -5,18 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>stream-api-enhancements</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk9</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>factory-methods-for-collections</module>
-        <module>module-feature</module>
-        <module>private-method-in-interface</module>
-        <module>stream-api-enhancements</module>
-    </modules>
+    <artifactId>takewhile-dropwhile</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
