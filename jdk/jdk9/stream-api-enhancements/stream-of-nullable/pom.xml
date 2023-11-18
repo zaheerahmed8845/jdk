@@ -5,17 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk9</artifactId>
+        <artifactId>stream-api-enhancements</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>stream-api-enhancements</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>takewhile-dropwhile</module>
-        <module>iterate-using-predicate</module>
-        <module>stream-of-nullable</module>
-    </modules>
+    <artifactId>stream-of-nullable</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
