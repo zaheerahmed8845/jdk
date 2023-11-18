@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>types-of-modules</artifactId>
+        <artifactId>stream-api-enhancements</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>automatic_module</artifactId>
+    <artifactId>iterate-using-predicate</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
