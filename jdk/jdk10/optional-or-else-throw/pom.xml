@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk10</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk10</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>local-variable-type-inference</module>
-        <module>optional-or-else-throw</module>
-    </modules>
+    <artifactId>optional-or-else-throw</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
