@@ -16,8 +16,13 @@ public class OptionalOrElseThrow {
         } catch (NoSuchElementException ex) {
             System.out.println("No such element found exception");
         }
-        String largeWordUsingOrElseThrowMethod = optionalOrElse.findLargeWordUsingOrElseThrowMethod();
-        System.out.println("Large word using or else throw method : " + largeWordUsingOrElseThrowMethod);
+        try {
+            String largeWordUsingOrElseThrowMethod = optionalOrElse.findLargeWordUsingOrElseThrowMethod();
+            System.out.println("Large word using or else throw method : " + largeWordUsingOrElseThrowMethod);
+        } catch (NoSuchElementException ex) {
+            System.out.println("No such element found exception in optional using or else throw method");
+        }
+
     }
 
     public String findLargeWord() {
