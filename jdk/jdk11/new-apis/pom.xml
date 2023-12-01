@@ -5,20 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk11</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk11</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>http-client-api</module>
-        <module>local-var-lambda</module>
-        <module>string-api-changes</module>
-        <module>epsilon-gc</module>
-        <module>single-file-source-code-program</module>
-        <module>new-apis</module>
-    </modules>
+    <artifactId>new-apis</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
