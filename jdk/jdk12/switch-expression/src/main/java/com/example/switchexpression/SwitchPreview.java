@@ -20,7 +20,8 @@ public class SwitchPreview {
             case ORDERED -> "Food ordered,Restaurant will confirm";
             case COOKING -> "Restaurant confirmed order,food is being cooked";
             case DELIVERED -> "Food has been delivered";
-            case CANCELLED -> "Food order has been cancelled";
+            case CANCELLED ->
+                    "Food order has been cancelled";//If this is commented then we get the exception "switch expression does not cover all possible values."
         };
 
         //return result;
