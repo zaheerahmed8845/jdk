@@ -5,19 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>string-api-updates</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk12</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>compact-number-format</module>
-        <module>teeing-collector</module>
-        <module>comparing-2-files</module>
-        <module>switch-expression</module>
-        <module>string-api-updates</module>
-    </modules>
+    <artifactId>indent-method</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
