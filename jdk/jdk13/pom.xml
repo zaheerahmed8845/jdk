@@ -9,14 +9,11 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk12</artifactId>
+    <artifactId>jdk13</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>compact-number-format</module>
-        <module>teeing-collector</module>
-        <module>comparing-2-files</module>
-        <module>switch-expression</module>
-        <module>string-api-updates-jdk12</module>
+        <module>textblock-preview</module>
+        <module>string-api-updates-jdk13</module>
     </modules>
 
     <properties>

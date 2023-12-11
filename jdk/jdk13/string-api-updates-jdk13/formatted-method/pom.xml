@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>string-api-updates</artifactId>
+        <artifactId>string-api-updates-jdk13</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>indent-method</artifactId>
+    <artifactId>formatted-method</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

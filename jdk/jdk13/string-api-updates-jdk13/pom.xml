@@ -5,18 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk13</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk12</artifactId>
+    <artifactId>string-api-updates-jdk13</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>compact-number-format</module>
-        <module>teeing-collector</module>
-        <module>comparing-2-files</module>
-        <module>switch-expression</module>
-        <module>string-api-updates-jdk12</module>
+        <module>strip-indent</module>
+        <module>translate-escapes</module>
+        <module>formatted-method</module>
     </modules>
 
     <properties>

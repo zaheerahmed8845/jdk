@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk12</artifactId>
+        <artifactId>jdk13</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>string-api-updates</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>indent-method</module>
-        <module>transform-method</module>
-    </modules>
+    <artifactId>textblock-preview</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
