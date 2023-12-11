@@ -5,17 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk13</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk13</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>textblock-preview</module>
-        <module>string-api-updates-jdk13</module>
-        <module>switch-expression-yield</module>
-    </modules>
+    <artifactId>switch-expression-yield</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
