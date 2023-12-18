@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk14</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk14</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>switch-expression-feature</module>
-        <module>nullpointer-exceptions</module>
-    </modules>
+    <artifactId>nullpointer-exceptions</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
