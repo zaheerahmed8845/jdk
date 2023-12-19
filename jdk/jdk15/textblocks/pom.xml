@@ -5,15 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk15</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk15</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>textblocks</module>
-    </modules>
+    <artifactId>textblocks</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
