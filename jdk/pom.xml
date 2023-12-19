@@ -15,13 +15,14 @@
 	<name>jdk</name>
 	<description>Demo project for jdk</description>
 	<modules>
-        <module>jdk9</module>
-        <module>jdk10</module>
-        <module>jdk11</module>
-        <module>jdk12</module>
-        <module>jdk13</module>
-        <module>jdk14</module>
-    </modules>
+		<module>jdk9</module>
+		<module>jdk10</module>
+		<module>jdk11</module>
+		<module>jdk12</module>
+		<module>jdk13</module>
+		<module>jdk14</module>
+		<module>jdk15</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
