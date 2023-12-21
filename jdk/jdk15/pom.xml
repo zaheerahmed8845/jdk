@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>textblocks</module>
+        <module>record-preview-jdk15</module>
+        <module>sealed-classes-preview-jdk15</module>
     </modules>
 
     <properties>
