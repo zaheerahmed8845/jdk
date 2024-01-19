@@ -3,6 +3,21 @@ package com.example.sealedclasses;
 interface I3 {
 }
 
+/*
+//Case 1: This will give a compile time error as there are no sealed classes present.
+sealed class C3  permits D3 {
+}
+*/
+
+
+/*
+//Case 2: This will not give a compile time error as it extends the interface.
+sealed class C3  implements I3 permits D3 {
+}
+*/
+
+
+//Case3: This will not give any compile time error as it has a non-sealed class in the subtype.
 sealed class C3 permits D3, B3 {
 }
 
