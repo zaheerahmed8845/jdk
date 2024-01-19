@@ -23,6 +23,7 @@
 		<module>jdk14</module>
 		<module>jdk15</module>
 		<module>jdk16</module>
+		<module>jdk17</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
