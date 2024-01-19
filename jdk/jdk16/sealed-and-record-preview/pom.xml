@@ -5,18 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>jdk</artifactId>
+        <artifactId>jdk16</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jdk16</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>record</module>
-        <module>stream-api-jdk16</module>
-        <module>pattern-matching</module>
-        <module>sealed-and-record-preview</module>
-    </modules>
+    <artifactId>sealed-and-record-preview</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
